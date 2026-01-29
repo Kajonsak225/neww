@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ESP8266 Sensor Monitor</title>
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: #fff;
+      padding: 24px;
+      border-radius: 14px;
+      width: 320px;
+      box-shadow: 0 4px 12px rgba(0,0,0,.15);
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+    .value {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .alarm {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    button {
+      w
